@@ -8,8 +8,10 @@ import './index.css'
 const VideosSlider = props => {
   const settings = {
     dots: false,
-    slidesToScroll: 1,
+    infinite: false,
+    speed: 500,
     slidesToShow: 4,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 768,
